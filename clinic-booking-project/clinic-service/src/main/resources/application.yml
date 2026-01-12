@@ -1,0 +1,15 @@
+server:
+  port: 8082
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/clinic_booking_db
+    username: clinic_user
+    password: clinic_pass
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+
+
